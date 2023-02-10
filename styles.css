@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navi-liste {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  background-color: #222;
+}
+
+.navi-liste li {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 8px;
+}
+
+.navi-liste li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.navigation button {
+  display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .navi-liste {
+    display: block;
+    padding-left: 0;
+  }
+  .navi-liste li {
+    background-color: #222;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .navigation button {
+    position: absolute;
+    top: 0rem;
+    right: 0.5rem;
+    border: 0;
+    background-color: white;
+    color: black;
+    font-size: inherit;
+    display: block;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  .navigation ul {
+    display: none;
+    margin-top: 2rem;
+  }
+  [aria-expanded="true"]~ul {
+    display: block;
+  }
+}
+
+div {
+  text-align: center;
+  height: fit-content;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div * {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.eins {
+  background-color: #063970;
+}
+
+
+h1 {
+  color: cornflowerblue;
+  font-size: 50px;
+}
+
+.zwei {
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.drei {
+  background-color: cornflowerblue;
+  color: white;
+}
