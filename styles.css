@@ -53,7 +53,7 @@
   .navigation ul {
     display: none;
   }
-  [aria-expanded="true"]~ul {
+  [aria-expanded='true'] ~ ul {
     display: block;
   }
 }
@@ -80,7 +80,6 @@ p {
   padding-right: 20px;
 }
 
-
 h1 {
   color: cornflowerblue;
   font-size: 50px;
@@ -102,7 +101,7 @@ img {
   height: auto;
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 500px) {
   img {
     width: 80%;
     height: auto;
@@ -113,4 +112,9 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
+}
+
+.zwei {
+  background-image: url('https://media.istockphoto.com/id/1127258407/de/vektor/dschungel-hintergrund-tropische-bl%C3%A4tter-rahmen-regenwald-blattpflanzen-gr%C3%BCnen-rasen-b%C3%A4ume.jpg?s=1024x1024&w=is&k=20&c=qi34W_EUMfhmSu0Xt4PBIhEEEd9HT60siiW48rtZkJc=');
+  background-size: cover;
 }
