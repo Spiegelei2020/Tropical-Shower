@@ -69,6 +69,7 @@ div {
 
 p {
   font-size: 20px;
+  padding-top: 20px;
 }
 
 .eins {
@@ -88,6 +89,8 @@ h1 {
 .zwei {
   background-color: white;
   color: black;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 h2 {
