@@ -69,7 +69,7 @@ div {
 
 p {
   font-size: 20px;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .eins {
@@ -113,4 +113,8 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
+}
+
+.pods_text {
+  border: green 2px dotted;
 }
