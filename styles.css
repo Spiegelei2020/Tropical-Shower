@@ -32,28 +32,26 @@
 @media screen and (max-width: 430px) {
   .navi-liste {
     display: block;
-    padding-left: 0;
   }
   .navi-liste li {
     background-color: #222;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
   }
   .navigation button {
+    width: 25px;
+    height: 25px;
     position: absolute;
     top: 0rem;
     right: 0.5rem;
-    border: 0;
+    border: #222 2px solid;
     background-color: white;
     color: black;
     font-size: inherit;
     display: block;
-    margin-top: 10px;
-    margin-right: 5px;
+    margin: 10px;
   }
   .navigation ul {
     display: none;
-    margin-top: 2rem;
   }
   [aria-expanded="true"]~ul {
     display: block;
@@ -63,15 +61,10 @@
 div {
   text-align: center;
   height: fit-content;
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-div * {
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 p {
@@ -80,6 +73,10 @@ p {
 
 .eins {
   background-color: #063970;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
@@ -102,9 +99,9 @@ img {
   height: auto;
 }
 
-@media screen and (min-width: 430px){
+@media screen and (min-width: 500px){
   img {
-    width: 100%;
+    width: 80%;
     height: auto;
   }
 
