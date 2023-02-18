@@ -11,9 +11,11 @@ body {
   background-color: #222;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 8px;
 }
 
 .navi-liste li {
+  padding: 8px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 8px;
