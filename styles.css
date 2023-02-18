@@ -52,6 +52,8 @@ body {
     font-size: inherit;
     display: block;
     margin: 10px;
+    padding: 0px;
+    
   }
   .navigation ul {
     display: none;
