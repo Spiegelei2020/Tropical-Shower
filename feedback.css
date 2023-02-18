@@ -70,7 +70,8 @@ body {
   display: flex;
   justify-content: center;
   height: 100vh;
-  align-items: center;
+  align-items: baseline;
+  margin-top: 45px;
 }
 
 .feedback-container {
