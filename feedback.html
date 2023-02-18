@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tropical Shower</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -29,41 +32,47 @@
         <li><a href="pods.html">Pods</a></li>
         <li><a href="feedback.html">Feedback</a></li>
       </ul>
-      <form name="feedback" method="POST" class="formular" data-netlify="true">
-        <input type="hidden" name="subject" value="Sales inquiry from tropical-shower.netlify.app" />
-        <h1>Feedback</h1>
-        </nav>
-          <div class="emoji_rating">
-            <div class="feedback-container">
-              <div class="emoji-container">
-                  <i class="far fa-angry fa-3x"></i>
-                  <i class="far fa-frown fa-3x"></i>
-                  <i class="far fa-meh fa-3x"></i>
-                  <i class="far fa-smile fa-3x"></i>
-                  <i class="far fa-laugh fa-3x"></i>
-              </div>
-              <div class="rating-container">
-                 <i class="fas fa-star fa-2x active"></i>
-                 <i class="fas fa-star fa-2x"></i>
-                 <i class="fas fa-star fa-2x"></i>
-                 <i class="fas fa-star fa-2x"></i>
-                 <i class="fas fa-star fa-2x"></i>
-              </div>
-             </div>
-          </div>
-          <div class="textarea_parent">
-            <textarea name="Kommentar" cols="27" rows="5"></textarea>
-          </div>
-          <p>
-            <label class="email">Deine Email: <input type="email" id="email" name="email" /></label>
-          </p>
-          <div class="absenden_parent">
-            <button type="submit" class="absenden">
-              <i class='bx bx-send' id="send_icon"></i>
-              Absenden
-            </button>
-          </div>
-      </form>
+      <h1>Feedback</h1>
+    </nav>
+    <div class="emoji_rating">
+      <div class="feedback-container">
+        <div class="emoji-container">
+          <i class="far fa-angry fa-3x"></i>
+          <i class="far fa-frown fa-3x"></i>
+          <i class="far fa-meh fa-3x"></i>
+          <i class="far fa-smile fa-3x"></i>
+          <i class="far fa-laugh fa-3x"></i>
+        </div>
+        <div class="rating-container">
+          <i class="fas fa-star fa-2x active"></i>
+          <i class="fas fa-star fa-2x"></i>
+          <i class="fas fa-star fa-2x"></i>
+          <i class="fas fa-star fa-2x"></i>
+          <i class="fas fa-star fa-2x"></i>
+        </div>
+      </div>
+    </div>
+    <form name="feedback" method="POST" class="formular" data-netlify="true">
+      <input
+        type="hidden"
+        name="Feedback"
+        value="tropical-shower.netlify.app"
+      />
+      <div class="textarea_parent">
+        <textarea name="Kommentar" cols="27" rows="5"></textarea>
+      </div>
+      <p>
+        <label class="email"
+          >Deine Email: <input type="email" id="email" name="email"
+        /></label>
+      </p>
+      <div class="absenden_parent">
+        <button type="submit" class="absenden">
+          <i class="bx bx-send" id="send_icon"></i>
+          Absenden
+        </button>
+      </div>
+    </form>
     <script src="script.js"></script>
     <script src="feedback.js"></script>
   </body>
