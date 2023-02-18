@@ -159,8 +159,8 @@ textarea {
 
 @media screen and (max-width: 470px) {
   .email {
-    display: block;
-    
+    display: inline-block;
+    text-align: center;
   }
 }
 
