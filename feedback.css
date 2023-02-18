@@ -115,8 +115,9 @@ body {
   color: gold;
 }
 
-textarea {
+.formular {
   display: flex;
   justify-content: center;
-  align-items: center;
+  position: relative;
+  bottom: 350px;
 }
