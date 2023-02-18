@@ -158,6 +158,7 @@ textarea {
   border-radius: 10px;
   border: 2px solid black;
   margin-left: 5px;
+  padding: 5px
 }
 
 @media screen and (max-width: 480px) {
