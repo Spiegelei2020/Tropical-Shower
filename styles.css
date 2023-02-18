@@ -123,3 +123,9 @@ img {
   background-image: url('https://media.istockphoto.com/id/1127258407/de/vektor/dschungel-hintergrund-tropische-bl%C3%A4tter-rahmen-regenwald-blattpflanzen-gr%C3%BCnen-rasen-b%C3%A4ume.jpg?s=1024x1024&w=is&k=20&c=qi34W_EUMfhmSu0Xt4PBIhEEEd9HT60siiW48rtZkJc=');
   background-size: cover;
 }
+
+.pods_bilder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
