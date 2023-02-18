@@ -69,7 +69,6 @@ body {
   justify-content: center;
   height: 100vh;
   align-items: baseline;
-  margin-top: 45px;
 }
 
 .feedback-container {
@@ -113,6 +112,14 @@ body {
 
 .fa-star.active{
   color: gold;
+}
+
+h1 {
+  color: #063970;
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  text-decoration: underline;
 }
 
 .formular {
