@@ -114,3 +114,9 @@ body {
 .fa-star.active{
   color: gold;
 }
+
+textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
