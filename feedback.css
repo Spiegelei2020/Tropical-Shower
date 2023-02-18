@@ -128,7 +128,7 @@ h1 {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 400px;
+  bottom: 63vh;
 }
 
 textarea {
