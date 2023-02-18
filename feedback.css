@@ -155,7 +155,13 @@ textarea {
   height: auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  justify-content: center;
+}
+
+@media screen and (max-width: 470px) {
+  .email {
+    display: block;
+    
+  }
 }
 
 .absenden_parent {
