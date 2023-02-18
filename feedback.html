@@ -30,6 +30,7 @@
         <li><a href="feedback.html">Feedback</a></li>
       </ul>
       <form name="feedback" method="POST" class="formular" data-netlify="true">
+        <input type="hidden" name="subject" value="Sales inquiry from tropical-shower.netlify.app" />
         <h1>Feedback</h1>
         </nav>
           <div class="emoji_rating">
@@ -53,6 +54,9 @@
           <div class="textarea_parent">
             <textarea name="Kommentar" id="" cols="27" rows="5"></textarea>
           </div>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
           <div class="absenden_parent">
             <button type="submit" class="absenden">
               <i class='bx bx-send' id="send_icon"></i>
