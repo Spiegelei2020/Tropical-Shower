@@ -124,5 +124,5 @@ body {
 
 textarea {
   font-family: Arial, Helvetica, sans-serif;
-  
+  border: 2px #222 solid;
 }
